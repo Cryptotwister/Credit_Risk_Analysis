@@ -9,10 +9,10 @@ The techniques used to achieve this include resampling and boosting as part of t
 Once designed, we need to evaluate the performance of these models and make a written recommendation on whether these models should be used to predict credit risk.
 
 ## Results:
-The code for the machine learning algortithms can be found in the jupyter notebook files: [credit_risk_resampling](https://github.com/Cryptotwister/Credit_Risk_Analysis/blob/main/credit_risk_resampling.ipynb)
+The code for the machine learning algorithms can be found in the jupyter notebook files: [credit_risk_resampling](https://github.com/Cryptotwister/Credit_Risk_Analysis/blob/main/credit_risk_resampling.ipynb)
 and [credit_risk_ensemble](https://github.com/Cryptotwister/Credit_Risk_Analysis/blob/main/credit_risk_ensemble.ipynb).
 
-In the cource of the project we developed the following machine learning models:
+In the course of the project we developed the following machine learning models:
 
 * Naive Random Oversampling;
 * SMOTE Oversampling;
@@ -47,16 +47,16 @@ For each one of these models, we split the data into training and testing datase
 
 ![Easy Ensemble AdaBoost Classifier](https://user-images.githubusercontent.com/42978221/160057185-583c2aae-8bb6-46ae-a51c-13020dfe2e03.png)
 
-
-
-### Deliverable 1: Use Resampling Models to Predict Credit Risk
-
-### Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
-
-### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
-
 ## Summary:
 
 ![ML Models Summary](https://user-images.githubusercontent.com/42978221/160158094-e18e269a-7750-4685-bffc-913e22757a91.png)
 
+The results of our analysis are summarized  in the table above.
+Based on our findings, we can say that AdaBoost Classifier model has the highest accuracy rate of 93%, which means that the model can predict the correct values 93% of the times.
+Overall, it is noticeable that regression models are fall behind the classifier counterparts with accuracy scores being 66% and lower.
+Based on accuracy rate alone the AdaBoost Easy Ensemble Classifier model is preferable.
+
+Additionally, the F1 score, which indicates the level of imbalance between sensitivity and precision, shows the much higher scores for the classifier models. The Easy Ensemble AdaBoost Classifier in particular having the largest F1 score of 0.97, thereby demonstrating the least disparity between sensitivity and precision.
+
+To summarize, based on the results of our analysis, it is recommended that the Easy Ensemble AdaBoost Classifier machine learning model be adopted for the purpose of predicting a credit risk.
 
