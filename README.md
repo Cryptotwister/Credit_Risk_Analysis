@@ -21,6 +21,7 @@ In the cource of the project we developed the following machine learning models:
 * Ensemble Classifier - Balanced Random Forest;
 * Ensemble Classifier - Easy Ensemble.
 
+For each one of these models, we split the data into training and testing datasets, performed accuracy scores calculations, confusion matrixes and imbalanced classification reports.
 
 ### 1. Naive Random Oversampling
 
