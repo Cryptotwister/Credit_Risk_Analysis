@@ -56,3 +56,6 @@ For each one of these models, we split the data into training and testing datase
 ### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 
 ## Summary:
+
+![ML Models Summary](https://user-images.githubusercontent.com/42978221/160154720-6012f442-4959-4ed3-8848-92b42ffc811c.png)
+
