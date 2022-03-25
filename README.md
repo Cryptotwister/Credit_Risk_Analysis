@@ -57,5 +57,6 @@ For each one of these models, we split the data into training and testing datase
 
 ## Summary:
 
-![ML Models Summary](https://user-images.githubusercontent.com/42978221/160154720-6012f442-4959-4ed3-8848-92b42ffc811c.png)
+![ML Models Summary](https://user-images.githubusercontent.com/42978221/160158094-e18e269a-7750-4685-bffc-913e22757a91.png)
+
 
